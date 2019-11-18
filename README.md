@@ -12,4 +12,4 @@ npm install --save file-saver
 npm install --save xlsx
 ```
 <br>
-Used JSON placeholder [data](https://jsonplaceholder.typicode.com/posts)
+Used JSON placeholder data - https://jsonplaceholder.typicode.com/posts
