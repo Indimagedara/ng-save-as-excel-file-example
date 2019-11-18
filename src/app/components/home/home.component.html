@@ -1,0 +1,17 @@
+<p>Exporting an excel file of type .xslx !!!</p>
+<p>Export as XLSX by clicking the below button</p>
+<button (click)="exportAsXLSX()">Save</button>
+<table>
+ <tr>
+   <td>User ID</td>
+   <td>Comment ID</td>
+   <td>Title</td>
+   <td>Comment</td>
+ </tr>
+ <tr *ngFor="let item of data">
+   <td>{{item.userId}}</td>
+   <td>{{item.id}}</td>
+   <td>{{item.title}}</td>
+   <td>{{item.body}}</td>
+ </tr>
+</table>
